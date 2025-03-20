@@ -1,0 +1,70 @@
+/* CategoryMenu.module.css */
+.menu {
+  display: flex;
+  padding: 0 1.5rem;
+  width: 60%;
+  justify-content: center;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1001;
+  box-shadow: 0 5px 6px #dedede;
+}
+
+.list {
+  list-style: none;
+  /* padding: 0 1.5rem; */
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.listItem {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.listItem a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  padding: 0.2rem 0.3rem;
+}
+
+.listItemContainer {
+  display: flex;
+}
+
+.listArrow {
+  align-self: center;
+}
+.dropdownContent {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  opacity: 0.8;
+  min-width: 150px;
+  width: max-content;
+  list-style: none;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdownContent {
+  display: flex;
+}
+
+.dropdownContent li:hover {
+  background-color: #dedede;
+}

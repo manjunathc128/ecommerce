@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "name": "Basmati Rice (5kg)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 450,
+    "discount": 10,
+    "image": "images/grocery/rice.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Organic Honey (500g)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 250,
+    "discount": 5,
+    "image": "images/grocery/honey.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Whole Wheat Flour (5kg)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 300,
+    "discount": 12,
+    "image": "images/grocery/flour.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sugar (2kg)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 100,
+    "discount": 8,
+    "image": "images/grocery/sugar.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cooking Oil (1L)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 150,
+    "discount": 15,
+    "image": "images/grocery/oil.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tata Sampann Toor Dal (1kg)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 120,
+    "discount": 10,
+    "image": "images/grocery/toor_dal.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Aashirvaad Atta (5kg)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 320,
+    "discount": 12,
+    "image": "images/grocery/atta.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Fortune Sunflower Oil (1L)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 160,
+    "discount": 15,
+    "image": "images/grocery/sunflower_oil.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Best Quality Moong Dal (1kg)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 130,
+    "discount": 10,
+    "image": "images/grocery/moong_dal.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Everest Garam Masala (100g)",
+    "category": "Grocery",
+    "subcategory": "Pantry Staples",
+    "price": 60,
+    "discount": 5,
+    "image": "images/grocery/garam_masala.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Fresh Apples (1kg)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 180,
+    "discount": 7,
+    "image": "images/grocery/apples.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Bananas (1 dozen)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 60,
+    "discount": 10,
+    "image": "images/grocery/bananas.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Oranges (1kg)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 120,
+    "discount": 5,
+    "image": "images/grocery/oranges.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mangoes (1kg)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 200,
+    "discount": 8,
+    "image": "images/grocery/mangoes.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Grapes (500g)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 150,
+    "discount": 12,
+    "image": "images/grocery/grapes.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Carrots (1kg)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 40,
+    "discount": 10,
+    "image": "images/grocery/carrots.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Tomatoes (1kg)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 50,
+    "discount": 8,
+    "image": "images/grocery/tomatoes.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Onions (1kg)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 30,
+    "discount": 12,
+    "image": "images/grocery/onions.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Potatoes (1kg)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 25,
+    "discount": 15,
+    "image": "images/grocery/potatoes.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Broccoli (500g)",
+    "category": "Grocery",
+    "subcategory": "Fresh Produce",
+    "price": 80,
+    "discount": 5,
+    "image": "images/grocery/broccoli.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Coca-Cola (2L)",
+    "category": "Grocery",
+    "subcategory": "Beverages",
+    "price": 80,
+    "discount": 10,
+    "image": "images/grocery/coke.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Sprite (2L)",
+    "category": "Grocery",
+    "subcategory": "Beverages",
+    "price": 75,
+    "discount": 8,
+    "image": "images/grocery/sprite.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Fanta (2L)",
+    "category": "Grocery",
+    "subcategory": "Beverages",
+    "price": 70,
+    "discount": 12,
+    "image": "images/grocery/fanta.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Pepsi (2L)",
+    "category": "Grocery",
+    "subcategory": "Beverages",
+    "price": 85,
+    "discount": 5,
+    "image": "images/grocery/pepsi.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Mountain Dew (2L)",
+    "category": "Grocery",
+    "subcategory": "Beverages",
+    "price": 90,
+    "discount": 10,
+    "image": "images/grocery/mountain_dew.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Lays Chips (150g)",
+    "category": "Grocery",
+    "subcategory": "Snacks",
+    "price": 30,
+    "discount": 15,
+    "image": "images/grocery/lays.jpg"
+  }
+]

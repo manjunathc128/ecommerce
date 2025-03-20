@@ -1,0 +1,123 @@
+.header {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.4rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+  /* height: 60px; */
+}
+
+.logoContainer {
+  flex: 1;
+}
+
+.searchContainer {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.accountContainer {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.profileContainer:hover .accountDropdown {
+  display: flex;
+}
+
+.accountDropdown {
+  display: none;
+  position: absolute;
+  top: 1.8rem;
+  right: 0;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  width: max-content;
+  background-color: aliceblue;
+  border: 0.2rem solid #dedede;
+  cursor: pointer;
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.accountContainer a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #d66c83;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.accountDetails {
+  text-align: right;
+}
+
+.accountName {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.accountEmail {
+  font-size: 14px;
+  color: #777;
+}
+
+.cartContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+
+  cursor: pointer;
+  /* flex: 1; */
+  color: inherit;
+  /* background-color: brown; */
+}
+
+.cartContainer a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 1rem 0.8rem;
+  color: #d66c83;
+  /* background-color: aqua; */
+}
+
+.cartContainerName {
+  font-size: 1.5rem;
+  display: flex;
+  /* background-color: blue; */
+  align-items: center;
+}
+
+.cartIcon {
+  font-size: 2.5rem;
+  margin-right: 0.2rem;
+}
+
+.cartItemCount {
+  /* background-color: #ff5722; */
+  color: #000;
+  border-radius: 50%;
+
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
