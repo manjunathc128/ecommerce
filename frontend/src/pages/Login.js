@@ -22,13 +22,16 @@ const Login = () => {
 
     // Simulate a login request (replace with actual API call)
     try {
-      const response = await fetch("http://localhost:5000/account/signin", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, password, username }),
-      });
+      const response = await fetch(
+        "https://ecommerce-s1b5.onrender.com/account/signin",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email, password, username }),
+        }
+      );
 
       const data = await response.json();
       console.log(data);

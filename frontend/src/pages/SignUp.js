@@ -35,13 +35,16 @@ const SignUp = () => {
 
     // Simulate a signup request (replace with actual API call)
     try {
-      const response = await fetch("http://localhost:5000/account/signup", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ username, email, password }),
-      });
+      const response = await fetch(
+        "https://ecommerce-s1b5.onrender.com/account/signup",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ username, email, password }),
+        }
+      );
 
       const data = await response.json();
       console.log(` signUp response ${data}`);

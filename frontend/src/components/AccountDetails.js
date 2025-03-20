@@ -292,7 +292,7 @@ const AccountDetails = () => {
     const fetchUserDetails = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/profile?username=${username}&email=${email}`,
+          `https://ecommerce-s1b5.onrender.com/profile?username=${username}&email=${email}`,
           {
             method: "GET",
             headers: {
