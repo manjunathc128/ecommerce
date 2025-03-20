@@ -10,7 +10,7 @@ export const AppProvider = ({ children }) => {
   ] = useReducer(reducer, initialState);
 
   useEffect(() => {
-    fetch("https://ecommerce-s1b5.onrender.com/api/products", {
+    fetch("https://ecommerce-s1b5.onrender.com/products", {
       method: "GET",
       headers: {
         "content-type": "application/json",
