@@ -340,7 +340,7 @@ const AccountDetails = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/profile/update", {
+      const response = await fetch("https://ecommerce-s1b5.onrender.com/profile/update", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
